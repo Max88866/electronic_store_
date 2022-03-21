@@ -1,0 +1,40 @@
+@import "../../utils/colors";
+
+.store {
+  width: 100%;
+  display: flex;
+  .store-flex {
+    width: 100% ;
+    .devices {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .pages {
+      margin-left: 30px;
+      font-weight: 500;
+      font-size: 1.1em;
+      color: gray;
+      display: flex;
+      margin-top: 15px;
+
+
+      .page, .current-page {
+        padding: 8px 16px;
+        margin-left: 3px;
+        border: 2px @main-color solid;
+        border-radius: 100px;
+        cursor: pointer;
+      }
+      .current-page {
+        font-weight: 900;
+        color: black;
+        border: 3px @main-color solid;
+      }
+      .page {
+        font-weight: 500;
+      }
+    }
+  }
+}

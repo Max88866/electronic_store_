@@ -1,0 +1,35 @@
+.addzone {
+  width: 100%;
+}
+.addzone-type,
+.addzone-brand,
+.addzone-device,
+.addzone-properties {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.addzone-type select,
+.addzone-brand select,
+.addzone-device select,
+.addzone-properties select {
+  align-self: start;
+}
+.addzone-device textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  resize: none;
+  height: 100px;
+}
+.addzone-device-inputs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.addzone-header {
+  font-weight: 500;
+}
+.addzone button {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=addZone.css.map */
